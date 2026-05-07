@@ -37,7 +37,7 @@ function Login() {
       const res =
         await axios.post(
 
-          "http://localhost:5000/login",
+          "https://ai-resume-analyzer-7gyd.onrender.com/login",
 
           formData
         );
