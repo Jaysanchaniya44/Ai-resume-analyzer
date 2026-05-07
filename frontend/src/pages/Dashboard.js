@@ -66,7 +66,7 @@ if (savedTheme === "true") {
     const res =
       await axios.get(
 
-        `http://localhost:5000/history/${userId}`
+        `https://ai-resume-analyzer-7gyd.onrender.com/history/${userId}`
       );
 
     setHistory(res.data);
