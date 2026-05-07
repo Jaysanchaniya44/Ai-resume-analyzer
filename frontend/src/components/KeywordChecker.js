@@ -36,7 +36,7 @@ function KeywordChecker() {
       const res =
         await axios.post(
 
-          "http://localhost:5000/keyword-check",
+          "https://ai-resume-analyzer-7gyd.onrender.com/keyword-check",
 
           {
             resumeText,
