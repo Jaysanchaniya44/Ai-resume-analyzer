@@ -29,13 +29,13 @@ function Upload({
 
       // ✅ Upload PDF
       const uploadRes = await axios.post(
-        "http://localhost:5000/upload",
+        "https://ai-resume-analyzer-7gyd.onrender.com/upload",
         formData
       );
 
       // ✅ Analyze Resume
       const aiRes = await axios.post(
-        "http://localhost:5000/analyze",
+        "https://ai-resume-analyzer-7gyd.onrender.com/analyze",
         {
           text: uploadRes.data.text,
 
