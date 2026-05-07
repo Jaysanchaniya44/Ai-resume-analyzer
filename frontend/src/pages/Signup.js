@@ -39,7 +39,7 @@ function Signup() {
       const res =
         await axios.post(
 
-          "http://localhost:5000/signup",
+          "https://ai-resume-analyzer-7gyd.onrender.com/signup",
 
           formData
         );
